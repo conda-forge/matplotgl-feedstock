@@ -1,5 +1,5 @@
 {% set name = "matplotgl" %}
-{% set version = "25.11.0" %}
+{% set version = "25.11.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/matplotgl-{{ version }}.tar.gz
-  sha256: 2a7a6adbae893c7d72fc352f1069bb7a601091744364c1cc73bb97297c4041e1
+  sha256: d83a89cb6bab411559e3a67eb4271fb24d2bc625ef674e6f8a540b6025165e3d
 
 build:
   noarch: python
